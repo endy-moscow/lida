@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css");
+
+.app {
+	margin: 0;
+	font-family: 'Vollkorn', sans-serif;
+	padding: 0;
+	background: rgba(255, 240, 240, 1);
+
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+
+h1{
+	font-size: 48px !important;
+	line-height: 1;
+}
+h2{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	line-height: 1;
+	text-align: center;
+
+}
+h3{
+}
+p{
+	line-height: 1.6;
+}
+
+.lida{
+	width: 140px;
+	height: 140px;
+	border-radius: 150px;
+	background: url('./lida3.jpg');
+	background-size: 116% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: scroll;
+}
+.section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project{
+	padding-bottom: 24px;
+}
+.project-about-wrapper{
+}
+.project-about{
+	width: 600px;
+	max-width: 100%;
+	padding: 64px 24px 0 24px;
+}
+.borjomi{
+	background: #33977c;
+	color: white;
+}
+.mailfit{
+	background: #131127;
+	color: white;
+}
+.datravel{
+	background: #126;
+	color: white;
+}
+.professor{
+	background: #e2b344;
+	color: white;
+}
+.swiper-container {
+	 width: 100%;
+}
+.swiper-slide{
+
+
+}
+button.my-swiper-button-next.swiper-button-disabled,
+button.my-swiper-button-prev.swiper-button-disabled{
+	opacity: 0;
+	transition: .3s;
+}
+button.my-swiper-button-prev{
+	position: absolute;
+	opacity: 1;
+	top: 20%;
+	left: 0;
+	z-index: 99;
+	cursor: pointer;
+	background-size: 24px 24px;
+	height: 48px;
+	width: 48px;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: .3s;
+	background-color: rgba(255,255,255,0.9);
+	border: none;
+	background-image: url('./arrL.svg');
+	border-radius: 0 50% 50% 0;
+}
+button.my-swiper-button-next{
+	position: absolute;
+	top: 20%;
+	right: 0;
+	left: auto;
+	opacity: 1;
+	z-index: 99;
+	cursor: pointer;
+	background-size: 24px 24px;
+	height: 48px;
+	width: 48px;
+	background-position: center;
+	background-color: rgba(255,255,255,0.9);
+	border: none;
+	background-image: url('./arrow-r.svg');
+	background-repeat: no-repeat;
+	border-radius: 50% 0 0 50%;
+
+}
+.font-bold{
+	letter-spacing: 3px;
+	color: lightblue;
+}
+.project{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: start;
+	justify-content: center;
+}
+
+.post-wrapper {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+.post-wrapper > div {
+	justify-content: center;
+	display: flex
+}
+span > iframe, .post-wrapper > div > iframe {
+	width: 100% !important;
+	max-width: 300px;
+}
+
+.about-me{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 500px;
+	height: 100vh;
+}
+p.represent{
+
+	font-size: 16px;
+	color: rgba(0,0,0,.85);
+	text-align: center;
+	padding: 24px;
+}
+.represent::selection {
+	background: rgba(255,0,0,0.25);
+	text-align: center;
+}
+.fb-post{
+	background-color: white;
+}
+.social-icon{
+	margin: 0 6px;
+}.social-icon:last-child{
+	margin-right: 0;
+}.social-icon:first-child{
+	margin-left: 0;
+}

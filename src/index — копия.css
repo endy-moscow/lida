@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.css";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  animation: 60s linear 0s infinite alternate bg;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+@keyframes bg {
+  0%{
+    background: rgba(255,0,0,0.05)
+  }
+  25% {
+    background: rgba(0,255,0,0.05)
+  }
+  75% {
+    background: rgba(0,0,255,0.05)
+  }
+  100% {
+    background: rgba(255,0,0,0.05)
+    
+  }
+}
+// Functional
+.flex{
+  display: flex;
+}
+.flex__row{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex__center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Navigation
+nav.navigation{
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(124,124,124,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.links{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+// Social
+.navigation__social{
+  list-style: none;
+  display: flex;
+  margin: 12px;
+}
+li.social-icon{
+  margin: 0 6px;
+}
+li.social-icon:last-child{
+  margin-right: 0;
+}
+li.social-icon:first-child{
+  margin-left: 0;
+}
+
+.app{
+  width: 100vw;
+  height: 80vh;
+}
+.full-screen{
+  height: 100vh;
+  width: 100vw;
+}
+.half-screen {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  background: rgba(255,255,255,0);
+}
+.page{
+  margin: 48px;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
