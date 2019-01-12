@@ -2,35 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css");
 
-.app {
-	margin: 0;
+body {
 	font-family: 'Vollkorn', sans-serif;
-	padding: 0;
 	background: rgba(255, 240, 240, 1);
-
+	line-height: 1.6;
 }
+
 ul{
 	padding: 0;
 	margin: 0;
 }
 
-
-h1{
-	font-size: 48px !important;
-	line-height: 1;
-}
-h2{
-	margin-top: 24px;
-	margin-bottom: 24px;
-	line-height: 1;
-	text-align: center;
-
-}
-h3{
-}
-p{
-	line-height: 1.6;
-}
 
 .lida{
 	width: 140px;
@@ -86,48 +68,7 @@ p{
 
 
 }
-button.my-swiper-button-next.swiper-button-disabled,
-button.my-swiper-button-prev.swiper-button-disabled{
-	opacity: 0;
-	transition: .3s;
-}
-button.my-swiper-button-prev{
-	position: absolute;
-	opacity: 1;
-	top: 20%;
-	left: 0;
-	z-index: 99;
-	cursor: pointer;
-	background-size: 24px 24px;
-	height: 48px;
-	width: 48px;
-	background-position: center;
-	background-repeat: no-repeat;
-	transition: .3s;
-	background-color: rgba(255,255,255,0.9);
-	border: none;
-	background-image: url('./arrL.svg');
-	border-radius: 0 50% 50% 0;
-}
-button.my-swiper-button-next{
-	position: absolute;
-	top: 20%;
-	right: 0;
-	left: auto;
-	opacity: 1;
-	z-index: 99;
-	cursor: pointer;
-	background-size: 24px 24px;
-	height: 48px;
-	width: 48px;
-	background-position: center;
-	background-color: rgba(255,255,255,0.9);
-	border: none;
-	background-image: url('./arrow-r.svg');
-	background-repeat: no-repeat;
-	border-radius: 50% 0 0 50%;
 
-}
 .font-bold{
 	letter-spacing: 3px;
 	color: lightblue;
@@ -149,8 +90,8 @@ button.my-swiper-button-next{
 	display: flex
 }
 span > iframe, .post-wrapper > div > iframe {
-	width: 100% !important;
-	max-width: 300px;
+/*	width: 100% !important;
+	max-width: 300px;*/
 }
 
 .about-me{
