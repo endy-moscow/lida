@@ -1,49 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url("https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css');
+@import url('./popup.css');
 
 body {
 	font-family: 'Vollkorn', sans-serif;
 	background: rgba(255, 240, 240, 1);
 	line-height: 1.6;
 }
-
+.app{
+	width: 100%;
+}
 ul{
 	padding: 0;
 	margin: 0;
 }
+h1, h2, h3, p, button {
+	max-width: 500px;
+	padding: 0 24px;
+}
 
-
-.lida{
-	width: 140px;
-	height: 140px;
-	border-radius: 150px;
-	background: url('./lida3.jpg');
-	background-size: 116% auto;
+.lida-photo{
+	width: 30vh;
+	height: 30vh;
+	margin: 36px auto;
+	border-radius: 1000px;
+	background: url('./lida-photo.jpg');
+	background-size: 130% auto;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 0 0;
+}
+.represent{
+	text-align: center;
+	margin: 0 12px;
 }
 .page{
+}
+
+.borjomi, .mailfit, .professor, .datravel, .lida{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	overflow: scroll;
-}
-.section{
-	display: flex;
-	justify-content: center;
 	align-items: center;
-}
-
-.project{
-	padding-bottom: 24px;
-}
-.project-about-wrapper{
-}
-.project-about{
-	width: 600px;
-	max-width: 100%;
-	padding: 64px 24px 0 24px;
 }
 .borjomi{
 	background: #33977c;
@@ -61,65 +59,7 @@ ul{
 	background: #e2b344;
 	color: white;
 }
-.swiper-container {
-	 width: 100%;
-}
-.swiper-slide{
-
-
-}
-
-.font-bold{
-	letter-spacing: 3px;
-	color: lightblue;
-}
-.project{
-	display: flex;
-	flex-flow: row wrap;
-	align-items: start;
-	justify-content: center;
-}
-
-.post-wrapper {
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-}
-.post-wrapper > div {
+/*.post-wrapper > div {
 	justify-content: center;
 	display: flex
-}
-span > iframe, .post-wrapper > div > iframe {
-/*	width: 100% !important;
-	max-width: 300px;*/
-}
-
-.about-me{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	min-height: 500px;
-	height: 100vh;
-}
-p.represent{
-
-	font-size: 16px;
-	color: rgba(0,0,0,.85);
-	text-align: center;
-	padding: 24px;
-}
-.represent::selection {
-	background: rgba(255,0,0,0.25);
-	text-align: center;
-}
-.fb-post{
-	background-color: white;
-}
-.social-icon{
-	margin: 0 6px;
-}.social-icon:last-child{
-	margin-right: 0;
-}.social-icon:first-child{
-	margin-left: 0;
-}
+}*/

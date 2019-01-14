@@ -29,57 +29,9 @@ export default class Main extends React.Component {
 						<h2>Примеры постов</h2>
 					</div>
 					<Swiper {...params}>
-						<div className='post-wrapper'>
-							<VK apiId={6610009}>
-								<Post
-									elementId={'dt2'}
-									ownerId={-72420298}
-									postId={1011}
-									hash={'nxO0fESFfQ2lKaUSJDXCLL-DzA'}
-									/>
-							</VK>
-						</div>
-						<div className='post-wrapper'>
-							<VK apiId={6610009}>
-								<Post
-									elementId={'dt1'}
-									ownerId={-72420298}
-									postId={1204}
-									hash={'HWX6zgA9QbzKhUh9tuupqQeGww'}
-									/>
-							</VK>
-						</div>
 						
-						<div className='post-wrapper'>
-							<VK apiId={6610009}>
-								<Post
-									elementId={'dt3'}
-									ownerId={-72420298}
-									postId={1432}
-									hash={'TSkF06V9kxa0kTl5_egfoCZ5dA'}
-									/>
-							</VK>
-						</div>
-						<div className='post-wrapper'>
-							<VK apiId={6610009}>
-								<Post
-									elementId={'dt4'}
-									ownerId={-72420298}
-									postId={1250}
-									hash={'SHZipSAAiVkg5JcRTdasEJ_GPw'}
-									/>
-							</VK>
-						</div>
-						<div className='post-wrapper'>
-							<VK apiId={6610009}>
-								<Post
-									elementId={'dt5'}
-									ownerId={-72420298}
-									postId={1405}
-									hash={'jECd0GWH6mIJXBClH4gHVhClTg'}
-									/>
-							</VK>
-						</div>
+
+						
 					</Swiper>
 			</div>
 		)
@@ -87,7 +39,7 @@ export default class Main extends React.Component {
 }
 
 // <VK apiId={6610009}>
-// 	<div className='post-wrapper'>
+// 	
 // 		<Post
 // 			elementId={'dt1'}
 // 			ownerId={-72420298}

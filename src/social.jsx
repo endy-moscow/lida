@@ -15,7 +15,7 @@ export default class Social extends Component {
 				}}>
 				<div className='social-icon'>
 					<a 
-						href='https://vk.com/id72071058' 
+						href='https://hh.ru/resume/e6662093ff01b094370039ed1f474c66774d33' 
 						target="blank"
 						style={{
 							textAlign: 'center'
