@@ -14,8 +14,8 @@ export default class Social extends Component {
 					justifyContent: 'center'
 				}}>
 				<div className='social-icon'>
-					<a 
-						href='https://hh.ru/resume/e6662093ff01b094370039ed1f474c66774d33' 
+					<a
+						href='https://hh.ru/resume/e6662093ff01b094370039ed1f474c66774d33'
 						target="blank"
 						style={{
 							textAlign: 'center'

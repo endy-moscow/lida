@@ -15,15 +15,18 @@ export default class Main extends React.Component {
 	render() {
 		return (
 			<div>	<div className='lida'>
-						<div className='lida-photo' />
-						<p className='represent'>
-								Меня зовут Лида Середняк. Я копирайтер.
-								Создаю контент для сообществ компаний и СМИ в социальных сетях. 
-								Есть опыт разработки контент-стратегий и написания постов различной тематики, 
-								в том числе узкоспециализированной.
-						</p>
+							<section className='section-wrapper'>
+								<div className='lida-photo' />
+								<p className='represent'>
+									Меня зовут Лида Середняк. Я копирайтер.
+									Создаю контент для сообществ компаний и СМИ в социальных сетях.
+									Есть опыт разработки контент-стратегий и написания постов различной тематики,
+									в том числе узкоспециализированной.
+								</p>
+								<Social/>
+							</section>
 						</div>
-						<Social/>
+
 						<Borjomi/>
 						<Mailfit/>
 						<Datravel/>
