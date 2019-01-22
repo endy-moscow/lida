@@ -22,8 +22,8 @@ export default class Main extends React.Component {
 	render() {
 		return (
 			<section>
-				<button className="button modal-button modal-button-barjomi" onClick={this.openModal}>
-					Примеры постов
+				<button className="button modal-button modal-button-mailfit" onClick={this.openModal}>
+					→ Примеры постов
 				</button>
 				<Popup
 					open={this.state.open}
@@ -48,7 +48,7 @@ export default class Main extends React.Component {
 							<FacebookProvider appId="2152742098277565">
 								<EmbeddedPost href='https://www.facebook.com/mailfit/photos/a.557395974437337/755789831264616'/>
 							</FacebookProvider>
-							
+
 						</div>
 					</div>
 				</Popup>

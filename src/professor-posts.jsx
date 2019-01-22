@@ -23,7 +23,7 @@ export default class Main extends React.Component {
 	render() {
 		return (
 			<section>
-				<button className="button modal-button modal-button-barjomi" onClick={this.openModal}>
+				<button className="button modal-button modal-button-professor" onClick={this.openModal}>
 					Примеры постов
 				</button>
 				<Popup
@@ -37,21 +37,8 @@ export default class Main extends React.Component {
 					<div className="modal">
 						<div className="close" onClick={this.closeModal} />
 						<div className='posts-wrapper'>
-							
-							<FacebookProvider appId="2152742098277565">
-								<EmbeddedPost
-									href='https://www.facebook.com/scientific.show/photos/a.243159949069904/865706630148563'/>
-							</FacebookProvider>
-						
 
-						
-							<FacebookProvider appId="2152742098277565">
-								<EmbeddedPost
-									href='https://www.facebook.com/scientific.show/photos/a.243159949069904/872592529459973'/>
-							</FacebookProvider>
-						
 
-						
 							<VK apiId={6610009}>
 								<Post
 									elementId={'pr1'}
@@ -59,8 +46,22 @@ export default class Main extends React.Component {
 									postId={2680}
 									hash={'M43ANEDL74lMAY2eLRprQTJKNA'} />
 							</VK>
-						
-						
+
+
+							<FacebookProvider appId="2152742098277565">
+								<EmbeddedPost
+									href='https://www.facebook.com/scientific.show/photos/a.243159949069904/865706630148563'/>
+							</FacebookProvider>
+
+
+
+							<FacebookProvider appId="2152742098277565">
+								<EmbeddedPost
+									href='https://www.facebook.com/scientific.show/photos/a.243159949069904/872592529459973'/>
+							</FacebookProvider>
+
+
+
 							<VK apiId={6610009}>
 								<Post
 									elementId={'pr2'}
@@ -68,7 +69,7 @@ export default class Main extends React.Component {
 									postId={2488}
 									hash={'MeDBvYB35LRAKC08AV82h7iyaA'} />
 							</VK>
-						
+
 							<VK apiId={6610009}>
 								<Post
 									elementId={'pr4'}
@@ -76,9 +77,9 @@ export default class Main extends React.Component {
 									postId={2107}
 									hash={'Fb8ykmQiY4t5nKjIjbpCGxi3MQ'} />
 							</VK>
-						
 
-						
+
+
 							<VK apiId={6610009}>
 								<Post
 									elementId={'pr5'}
@@ -86,7 +87,7 @@ export default class Main extends React.Component {
 									postId={1892}
 									hash={'UibqVRbYtJG6QRNewClVvehlAA'} />
 							</VK>
-							
+
 						</div>
 					</div>
 				</Popup>

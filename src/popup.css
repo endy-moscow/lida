@@ -81,6 +81,10 @@
 	height: 100%;
 	width: 100% !important;
 }
+.posts-wrapper > div {
+	margin: 24px 0;
+}
+
 /*.posts-wrapper::-webkit-scrollbar {
 	display: none;
 }*/

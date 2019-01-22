@@ -24,13 +24,16 @@ export default class Social extends Component {
 							src="./HH.svg"
 						  evalScripts="always"
 						  svgStyle={param}
+							height='100px'
 						/>
 					</a>
 				</div>
-				<span style={{
+				<a href='mailto:lidaserednyak2@gmail.com' style={{
 							textAlign: 'center',
-							marginTop: '24px'
-						}}> LidaSerednyak2@gmail.com</span>
+							marginTop: '12px',
+							marginBottom: '12px',
+							fontSize: '10pt',
+						}}> lidaserednyak2@gmail.com</a>
 			</div>
 		);
 	}

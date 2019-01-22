@@ -23,7 +23,7 @@ export default class Main extends React.Component {
 		return (
 			<section>
 				<button className="button modal-button modal-button-datravel" onClick={this.openModal}>
-					Примеры постов
+					→ Примеры постов
 				</button>
 				<Popup
 					open={this.state.open}
@@ -44,8 +44,8 @@ export default class Main extends React.Component {
 									hash={'nxO0fESFfQ2lKaUSJDXCLL-DzA'}
 									/>
 							</VK>
-						
-						
+
+
 							<VK apiId={6610009}>
 								<Post
 									elementId={'dt1'}
@@ -54,9 +54,9 @@ export default class Main extends React.Component {
 									hash={'HWX6zgA9QbzKhUh9tuupqQeGww'}
 									/>
 							</VK>
-						
-						
-						
+
+
+
 							<VK apiId={6610009}>
 								<Post
 									elementId={'dt3'}
@@ -65,8 +65,8 @@ export default class Main extends React.Component {
 									hash={'TSkF06V9kxa0kTl5_egfoCZ5dA'}
 									/>
 							</VK>
-						
-						
+
+
 							<VK apiId={6610009}>
 								<Post
 									elementId={'dt4'}
@@ -75,8 +75,8 @@ export default class Main extends React.Component {
 									hash={'SHZipSAAiVkg5JcRTdasEJ_GPw'}
 									/>
 							</VK>
-						
-						
+
+
 							<VK apiId={6610009}>
 								<Post
 									elementId={'dt5'}
@@ -85,7 +85,7 @@ export default class Main extends React.Component {
 									hash={'jECd0GWH6mIJXBClH4gHVhClTg'}
 									/>
 							</VK>
-							
+
 						</div>
 					</div>
 				</Popup>

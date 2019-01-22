@@ -24,7 +24,7 @@ export default class Main extends React.Component {
 		return (
 			<section>
 				<button className="button modal-button modal-button-barjomi" onClick={this.openModal}>
-					Примеры постов
+					→ Примеры постов
 				</button>
 				<Popup
 					open={this.state.open}
@@ -37,51 +37,52 @@ export default class Main extends React.Component {
 					<div className="modal">
 						<div className="close" onClick={this.closeModal} />
 						<div className='posts-wrapper'>
-							
-								
+
+
 							<FacebookProvider appId="2152742098277565">
 								<EmbeddedPost
 									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1903240059903570'
 									/>
 							</FacebookProvider>
-						
-						
-							<FacebookProvider appId="2152742098277565">
-								<EmbeddedPost
-									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1894434267450816'
-									/>
-							</FacebookProvider>
-						
-						
-							<FacebookProvider appId="2152742098277565">
-								<EmbeddedPost
-									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1896508007243442'
-									/>
-							</FacebookProvider>
-						
-						
-						
-							<FacebookProvider appId="2152742098277565">
-								<EmbeddedPost
-									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1864505590443684'
-									/>
-							</FacebookProvider>
-						
-						
-							<FacebookProvider appId="2152742098277565">
-								<EmbeddedPost
-									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1852667118294198'
-									/>
-							</FacebookProvider>
-						
-						
+
 							<FacebookProvider appId="2152742098277565">
 								<EmbeddedPost
 									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1912759658951610'
 									/>
 							</FacebookProvider>
-						
-							
+
+							<FacebookProvider appId="2152742098277565">
+								<EmbeddedPost
+									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1894434267450816'
+									/>
+							</FacebookProvider>
+
+
+							<FacebookProvider appId="2152742098277565">
+								<EmbeddedPost
+									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1896508007243442'
+									/>
+							</FacebookProvider>
+
+
+
+							<FacebookProvider appId="2152742098277565">
+								<EmbeddedPost
+									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1864505590443684'
+									/>
+							</FacebookProvider>
+
+
+							<FacebookProvider appId="2152742098277565">
+								<EmbeddedPost
+									href='https://www.facebook.com/borjomi.ru/photos/a.1454184911475756/1852667118294198'
+									/>
+							</FacebookProvider>
+
+
+
+
+
 						</div>
 					</div>
 				</Popup>

@@ -12,7 +12,7 @@ export default class Main extends React.Component {
 				<section className='section-wrapper'>
 					<img src={BorjomiSvg}/>
 					<h1>Боржоми Россия</h1>
-					<p>В мои обязанности входило написание текстов для сообщества «Боржоми Россия» в Facebook согласно контент-плану и подбор изображений к постам.</p>
+					<p>В мои обязанности входило написание текстов и подбор картинок для сообщества «Боржоми Россия» в Facebook.</p>
 					<Posts/>
 				</section>
 			</div>
