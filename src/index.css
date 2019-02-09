@@ -92,12 +92,7 @@ p{
 .borjomi{
 	color: #002319;
 	background-color: #ccf0f0;
-	/* background: url('./borjomi.svg') no-repeat; */
-	background-size: auto 100%;
-	background-position: 50% 100%
-
 }
-
 .mailfit{
 	background: #140852;
 	color: #131127;
@@ -122,7 +117,6 @@ button.modal-button{
 	font-weight: 400;
 	background: none;
 }
-
 button.modal-button-barjomi {
 	color: white;
 	background: #b41d22;
@@ -147,7 +141,6 @@ button.modal-button-datravel:hover {
 	background:white;
 	color: #ed1c29;
 }
-
 button.modal-button-professor{
 	background: #220e89;
 	color: white;
@@ -155,4 +148,24 @@ button.modal-button-professor{
 button.modal-button-professor:hover {
 	background:white;
 	color: #220e89;
+}
+
+@media only screen and (max-width: 580px) {
+	.lida-photo{
+		width: 20vh;
+		height: 20vh;
+	}
+	.represent{
+		font-size: 18px;
+	}
+	.borjomi, .mailfit, .professor, .datravel, .lida{
+		padding: 0;
+	}
+	.section-wrapper{
+		margin-bottom: 0;
+	}
+	button{
+		margin: 12px auto 12px 36px !important;
+		width: auto !important;
+	}
 }
